@@ -148,6 +148,8 @@ export class Preparation implements IPreparation {
         return PREPARATION_STYLE_TYPE.POUR_OVER;
       case PREPARATION_TYPES.DECEMBER_DRIPPER:
         return PREPARATION_STYLE_TYPE.POUR_OVER;
+      case PREPARATION_TYPES.GAGGIUINO_ESPRESSO:
+        return PREPARATION_STYLE_TYPE.ESPRESSO;
       case PREPARATION_TYPES.DECENT_ESPRESSO:
         return PREPARATION_STYLE_TYPE.ESPRESSO;
       case PREPARATION_TYPES.HARIO_SWITCH:
@@ -238,6 +240,8 @@ export class Preparation implements IPreparation {
         return 'beanconqueror-preparation-cafec-flower';
       case PREPARATION_TYPES.DECEMBER_DRIPPER:
         return 'beanconqueror-preparation-december-dripper';
+      case PREPARATION_TYPES.GAGGIUINO_ESPRESSO:
+        return 'beanconqueror-preparation-gaggiuino-espresso';
       case PREPARATION_TYPES.DECENT_ESPRESSO:
         return 'beanconqueror-preparation-decent-espresso';
       case PREPARATION_TYPES.HARIO_SWITCH:
